@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>LCS Informática</title>
+		<meta charset="utf-8">
+		<meta name="author" content="Lucas Carvalho Sobreiro">
+		<meta name="description" content="Realizamos manutenção em notebooks e computadores.">
+		<meta name="keywords" content="computadores, notebooks, manutenção, informática, tecnologia, TI">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" href="Imagens/icon.png">
+		<link rel="stylesheet" href="lcsi_css.css">
+		<script src="lcsi_js.js"></script>
+	</head>
+	<body>
+		<div class="top">
+			<a href="lcsi.html"><img src="Imagens/logo.png" width="150px" style="margin-top:15px;margin-right:50px;"></a>
+			<a href="#" class="top_links" id="top_home">Home</a> |
+			<a href="#Servicos" class="top_links">Serviços</a> |
+			<a href="#Sobre" class="top_links">Sobre</a> |
+			<a href="#Contato" class="top_links">Contato</a>
+		</div>
+		<div class="main">
+			<br>
+			<div class="home" id="Home"><br><br><br>
+				<h3>Bem-Vindo ao LCS Informática!</h3>
+				<p>Realizamos manutenção em notebooks e computadores.</p>
+				<p>Criação de WEBSITE para você um site completo e<br>profissional para alavancar o seu negócio através da internet!</p>
+				<br><br><br>
+				<p id="Servicos"><br></p>
+			</div>
+			<h2>Serviços</h2>
+			<img src="Imagens/serv1.png">
+			<img src="Imagens/serv2.png">
+			<p id="Sobre"><br></p><br><br>
+			<div class="sobre">
+				<h2>Sobre</h2><h3>Quem Somos</h3>
+				<p id="Sobre_qs">A LCS é especialista em assistência técnica em informática, manutenção de micro<br>
+				computadores, notebooks e web design. Tem como objetivo respeitar e valorizar os clientes<br>
+				mantendo relação de confiança. Conta com profissional especializado em tecnologia<br>
+				sempre zelando pelo sigilo de informações dados dos clientes.</p>
+				<h3>Missão</h3>
+				<p id="Sobre_missao">Oferecer ao mercado as melhores soluções em serviço e tecnologia, agregando valores,<br>
+				sempre com base o comprometimento ético a nossos clientes.</p>
+				<h3>Visão</h3>
+				<p id="Sobre_visao">Nossa visão e ser reconhecido na área de TI como uma importante parceria de negócio<br>
+				estabelecendo a fidelidade de nossos clientes, para assim nos destacar no mercado de<br>
+				tecnologia.</p>
+				<h3>Valores</h3>
+				<p id="Sobre_valores">Nosso valor e atuar na área de TI sempre com ética nos relacionando, transparência nos<br>
+				negócios com comprometimento profissional, sempre buscando superar as expectativas dos<br>
+				nossos clientes, oferecendo a eles preços justos e atendimento de qualidade.</p><p id="Contato"><br></p>
+			</div>
+			<br><h2>Contato</h2>
+			<p style="margin-bottom:5px;">Nome</p>
+			<input type="text"></input>
+			<p style="margin-bottom:5px;">Email</p>
+			<input type="email"></input>
+			<p style="margin-bottom:5px;">Mensagem</p>
+			<textarea></textarea><br>
+			<input type="submit" style="width:150px;margin-bottom:15px;margin-top:15px;" 
+			onclick="document.getElementById('enviando').innerHTML = 'Enviando...';setTimeout(error, 1500);
+			function error () {document.getElementById('enviando').innerHTML =
+			'Falha ao enviar esta mensagem. Por favor, tente mais tarde.';}"</input>
+			<p id=enviando style="margin-bottom:50px;"><br></p>
+		</div>
+		<div class="bottom"><br>
+			<a style="text-decoration:underline;">Política de Privacidade</a><br>
+			<img src="Imagens/facebook.png" width="30px" style="margin-right:15px;">
+			<img src="Imagens/twitter.png" width="30px" style="margin-top:15px;margin-right:14px;">
+			<img src="Imagens/youtube.png" width="40px" style="margin-top:15px;">
+			<p>© 2020 LCS | Todos os direitos reservados.</p>
+		</div>
+	</body>
+</html>
